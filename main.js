@@ -1,6 +1,5 @@
 
 let names = ["Jace", "Jazz", "Jada", "Jack"]
-let box = document.getElementById("box")
 
 let kidsPairs = function(arr){
     let group = []
@@ -33,4 +32,3 @@ function showPairs(tableData){
 }
 
 showPairs(kidsPairs(names))
-console.log(kidsPairs(names))
