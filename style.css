@@ -19,6 +19,6 @@ th, td {
     border-bottom: 1px solid black;
 
 }
-th {
+th, h2 {
     color: #706fe5
 }
