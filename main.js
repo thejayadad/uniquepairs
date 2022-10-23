@@ -14,15 +14,15 @@ let kidsPairs = function(arr){
 }
 
 
-function showPairs(tableData){
+function showPairs(kids){
     let table = document.createElement("table")
     let tableBody = document.createElement("tbody")
-    tableData.forEach(function(rowData) {
+    kids.forEach(function(kid) {
         let row = document.createElement("tr")
 
-        rowData.forEach(function(cellData) {
+        kid.forEach(function(name) {
             let cell = document.createElement("td")
-            cell.appendChild(document.createTextNode(cellData))
+            cell.appendChild(document.createTextNode(name))
             row.appendChild(cell)
         })
         tableBody.appendChild(row)
